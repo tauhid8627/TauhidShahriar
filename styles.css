@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, #4a00e0, #8e2de2);
-  color: white;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333;
   line-height: 1.6;
   min-height: 100vh;
   padding: 20px;
@@ -17,18 +17,27 @@ body {
 header {
   text-align: center;
   padding: 50px 0;
+  background-color: #e6f7ff;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 header h1 {
   font-size: 3rem;
-  color: #ffffff;
+  color: #007acc; /* Blue color for headers */
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
 nav {
-  background: rgba(255, 255, 255, 0.1);
+  background: #007acc;
   padding: 10px 0;
   text-align: center;
   margin: 20px 0;
+  border-radius: 5px;
 }
 
 nav ul {
@@ -41,17 +50,22 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
 section {
   margin: 40px 0;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-  border-bottom: 2px solid #ffffff;
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -64,6 +78,8 @@ ul {
 footer {
   text-align: center;
   padding: 20px 0;
-  background: rgba(0, 0, 0, 0.2);
+  background: #e6f7ff;
   margin-top: 20px;
+  border-radius: 5px;
+  color: #555;
 }
